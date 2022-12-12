@@ -1,0 +1,62 @@
+img {width:100px;} 
+
+body {
+    font-family:'Times New Roman', Times, serif, monospace;
+    background-color: rgb(250, 231, 247);
+}
+
+#banner {font-family: 'Rubik Microbe', cursive;
+        font-size: 2.5em;
+        color: white;
+}
+
+
+a {
+    text-decoration: dotted;
+    text-decoration-line: rgb(255, 0, 162);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f68ee4;
+    color: white;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+
+  /* Change the link color on hover */
+li a:hover {
+    background-color: rgb(229, 222, 222);
+    color: white;
+  }
+
+#banner img {
+    width: 150px;
+}
+
+.content {
+    margin-left: 22%;
+}
+
+.card {
+    border: black 1px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+}
+
+.odd{
+    background-color: rgb(254, 211, 250);
+    
+}
+
+.even{
+    background-color: rgb(255, 255, 255);
+    
+}
